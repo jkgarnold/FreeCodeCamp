@@ -1,0 +1,189 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+    <body>
+      <header>
+        <h1>Princess Data</h1>
+        <nav id="navbar" class="navbar">
+          <header id="princesses">Princesses</header>
+          <ul>
+            <li><a class="nav-link" href="#ariel">Ariel</a></li>
+            <li><a class="nav-link" href="#belle">Belle</a></li>
+            <li><a class="nav-link" href="#mulan">Mulan</a></li>
+            <li><a class="nav-link" href="#rapunzel">Rapunzel</a></li>
+            <li><a class="nav-link" href="#tiana">Tiana</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main-doc">
+        <section class="main-section" id="ariel">
+          <header><i>Ariel</i></header>
+          <p>Ariel is curious, adventurous, and independent. She has a passionate desire to explore the unknown and is determined to follow her dreams, even when it means defying her father’s wishes</p>
+          <p>She’s lively, optimistic, and deeply loyal to her friends and family.</p>
+          <article><span>Interests/Hobbies:</span>
+            <ol>
+              <li><span>Exploring the ocean</span> – Ariel loves discovering new underwater places and creatures.</li>
+              <li><span>Singing</span> – Ariel has an enchanting voice and loves singing, especially about her dreams and desires.</li>
+              <li><span>Collecting human artifacts</span> – She enjoys collecting human objects and learning about the human world.</li>
+              <li><span>Dancing</span> – Ariel expresses herself through joyful dancing, especially when she’s feeling free-spirited.</li>
+              <li><span>Helping animals</span> – She has a special bond with sea creatures and often helps them when in need.</li>
+            </ol>
+          </article>
+          <code></code>
+        </section>
+
+        <section class="main-section" id="belle">
+          <header><i>Belle</i></header>
+          <p>Belle is intelligent, kind, and compassionate. She loves reading and has a thirst for knowledge. While she values independence, she’s also incredibly empathetic and sees beyond outward appearances.</p>
+          <p>She believes in the power of love, growth, and transformation.</p>
+          <article><span>Interests/Hobbies:</span>
+            <ol>
+              <li><span>Reading</span> – Belle is an avid reader, often spending hours immersed in books.</li>
+              <li><span>Learning</span> – She has a fascination with different cultures and enjoys learning new things.</li>
+              <li><span>Helping others</span> – Belle often helps the townspeople and those in need, showing her selfless nature.</li>
+              <li><span>Exploring nature</span> – Belle loves walking through the countryside and enjoying nature.</li>
+              <li><span>Cooking</span> – She’s found joy in preparing meals, particularly for the Beast.</li>
+            </ol>
+          </article>
+          <code></code>
+        </section>
+
+        <section class="main-section" id="mulan">
+          <header><i>Mulan</i></header>
+          <p>Mulan is courageous, strong-willed, and resourceful. She defies societal expectations and proves herself to be a skilled warrior.</p>
+          <p>She values family and honor and isn’t afraid to stand up for what she believes in, even if it means risking everything for the greater good.</p>
+          <article><span>Interests/Hobbies:</span>
+            <ol>
+              <li><span>Martial arts</span> – Mulan has a natural talent for combat and enjoys practicing various forms of martial arts.</li>
+              <li><span>Sword fighting</span> – She trains rigorously with weapons and is highly skilled with a sword.</li>
+              <li><span>Horseback riding</span> – Mulan enjoys riding horses and often uses them to travel quickly or fight.</li>
+              <li><span>Strategy games</span> – She loves using her quick thinking to plan strategies, both in battle and in everyday life.</li>
+              <li><span>Helping others</span> – Mulan often assists her family and friends in any way possible.</li>
+            </ol>
+          </article>
+          <code></code>
+        </section>
+
+        <section class="main-section" id="rapunzel">
+          <header><i>Rapunzel</i></header>
+          <p>Rapunzel is creative, optimistic, and fun-loving. She has a free spirit and a thirst for new experiences.</p>
+          <p>She is caring and open-hearted, with a curiosity about the world outside her tower that never fades.</p>
+          <article><span>Interests/Hobbies:</span>
+            <ol>
+              <li><span>Painting</span> – Rapunzel is an artist, often creating beautiful murals on the walls of her tower.</li>
+              <li>Singing – She has a beautiful singing voice and often sings songs that reflect her feelings.</li>
+              <li><span>Baking</span> – Rapunzel enjoys experimenting with new recipes and often bakes sweet treats.</li>
+              <li><span>Climbing</span> – Having spent years locked in a tower, Rapunzel has a talent for climbing and enjoys exploring high places.</li>
+              <li><span>Dancing</span> – She loves to dance freely, especially when she’s feeling particularly joyful or playful.</li>
+            </ol>
+          </article>
+          <code></code>
+        </section>
+
+        <section class="main-section" id="tiana">
+          <header><i>Tiana</i></header>
+          <p>Tiana is hardworking, determined, and practical. She has big dreams of owning her own restaurant and works tirelessly to achieve that goal.</p>
+          <p>She’s independent and focused, but also compassionate and willing to put others before herself.</p>
+          <article><span>Interests/Hobbies:</span>
+            <ol>
+              <li><span>Cooking</span> – Tiana’s true passion is cooking, especially southern dishes. She loves creating delicious meals.</li>
+              <li><span>Business planning</span> – Tiana enjoys learning about business and making strategic plans to grow her restaurant.</li>
+              <li><span>Gardening</span> – She loves growing fresh ingredients for her cooking, especially herbs and vegetables.</li>
+              <li><span>Dancing</span> – Tiana enjoys dancing, particularly when she celebrates with friends and family.</li>
+              <li><span>Helping her community</span> – She often organizes charity events and helps those in need within her neighborhood.</li>
+            </ol>
+          </article>
+          <code></code>
+        </section>
+        <p id="closing">Each of these princesses embodies distinct characteristics and interests that contribute to their uniqueness and inspire audiences in different ways!</p>
+        <p id="disclaimer">All information was gathered from ChatGPT. All characters are owned and operated by Disney. This project was not intended for commercial use, only for practice.</p>
+      </main>
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+  background: rgb(51,41,228);
+  background: linear-gradient(200deg, rgba(51,41,228,.5) 0%, rgba(131,58,157,.5) 47%, rgba(0,212,255,.5) 100%);
+}
+
+main {
+  margin: 15px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  * {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(140, 103, 168);
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+  min-width: 50px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgba(218, 107, 207, 0.519);
+}
+
+.navbar li {
+  float: left;
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+  font-family: verdana;
+}
+
+header {
+  text-align: right;
+  font-family: Ariel;
+  font-size: 20px;
+}
+
+header #princesses {
+  font-size: 10px;
+  color: rgba(254, 254, 254,0);
+}
+
+span {
+  font-weight: bold;
+}
+
+article {
+  font-family: arial-narrow;
+  padding: 15px;
+}
+
+article li {
+  padding-bottom: 15px;
+}
+
+** end of undefined **
+

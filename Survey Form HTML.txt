@@ -1,0 +1,101 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Wedding Guest Survey</h1>
+    <p id="description">We'd like some feedback on how you felt with the information presentation for the our wedding and activities.</p>
+    <form id="survey-form">
+      <label id="name-label">Name<input id="name" type="text" required placeholder="Julie" /></label>
+      <label id="email-label">Email<input id="email" type="email" required placeholder="example@text.com" /></label>
+      <label id="number-label">Age<input id="number" type="number" pattern="[0-9]" min="18" max="99" placeholder="27" /></label>
+      <select id="dropdown" required>
+        <option value="">(Party Size)</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <fieldset>
+        <legend>Family Side (required)</legend>
+        <label for="bride"><input id="bride" type="radio" name="family-side" class="inline" value="bride" />Bride</label>
+        <label for="groom"><input id="groom" type="radio" name="family-side" class="inline" value="groom" />Groom</label>
+      </fieldset>
+      <label for="relation">
+        <input name="parent" class="inline" id="relation" type="checkbox" value="parent"/>Parent
+        <input for="family" class="inline" id="relation" type="checkbox" value="family-member" />Family Member
+        <input for="friend" class="inline" id="relation" type="checkbox" value="friend" />Friend
+      </label>
+      <textarea placeholder="Any notes or words of wisdom?"></textarea>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #e8d484;
+  color: #231326;
+  font-family: Tahoma;
+  font-size: 18px;
+}
+h1 {
+  margin: 1em auto;
+  text-align: right;
+  font-family: Garamond;
+  font-size: 42px;
+}
+p {
+  margin: auto;
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 3em;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+fieldset {
+  text-align: center;
+}
+label {
+  display: block;
+  text-align: left;
+}
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+legend {
+  text-align: left;
+  font-size: 12px;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1rem;
+  min-width: 100px;
+}
+
+** end of undefined **
+

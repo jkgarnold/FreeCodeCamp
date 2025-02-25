@@ -1,0 +1,71 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <main id="main">
+      <h1 id="title">Claudette Colvin</h1>
+      <div id="img-div">
+        <img id="image" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTy-foD-ndUxPZENIQre4L8j3lpw0eMDjTOkDoOsjEhrcElAKM0E0GDjUvDq-YUvJpRE7PYNxq-g5xFSqsYZhYgfA">
+        <div id="img-caption">Portrait of 15 year old Claudette Colvin</div>
+      </div>
+
+      <h3>Historically Impactful Events of Colvin's Life</h3>
+
+      <ul>
+        <li class="pad"><strong>5 September 1939</strong> Born in Birmingham, Alabama</li>
+        <li class="pad"><strong>2 March 1955</strong> Arrested for not relinquishing her seat in segregated bus</li>
+        <li class="pad"><strong>20 December 1956</strong> Bus segregation ends in Alabama
+        <li class="pad"><strong>2010</strong> Claudette Colvin Dr official street name in Montgomery, Alabama
+      </ul>
+
+
+      <div id="tribute-info">
+        <a id="tribute-link" href="https://www.bbc.com/news/stories-43171799" target="_blank">Learn more</a>
+      </div>
+
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-block: 0;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: Verdana;
+  text-align: center;
+  min-width: 5vw, 1.2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pad {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+** end of undefined **
+
