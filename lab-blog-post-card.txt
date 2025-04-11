@@ -1,0 +1,65 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blog Post Card</title>
+</head>
+<body>
+    <div class="blog-post-card">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="blog image" class="post-img" />
+        <div class="post-content">
+            <h2 class="post-title">Learning to Code</h2>
+            <p class="post-excerpt">This is placeholder text for the test.</p>
+            <a class="read-more" href="https://ggnxbt.com">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.blog-post-card {
+  background: white;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.post-img {
+  width: 100%;
+  background-size: contain;
+  border-bottom: 3px solid navy;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-title, .post-excerpt {
+  color: darkgrey;
+  margin: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  color: lavender;
+  background-color: purple;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.read-more:hover {
+    background-color: grey;
+  }
+
+
+
+
+** end of undefined **
+
