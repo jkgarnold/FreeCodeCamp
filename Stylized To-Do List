@@ -1,0 +1,87 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Styled To-Do List</title>
+</head>
+
+<body>
+    <ul class="todo-list">
+        <li>
+            <input type="checkbox" id="schedule">
+            <label for="schedule">Update Schedule</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="https://usafdmoss.com" target="_blank">Schedule</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="timesheet">
+            <label for="timesheet">Complete Timesheet</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="deltekenterprise.com" target="_blank">CostPoint</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="practice">
+            <label for="practice">Coding Practice</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="freeCodeCamp.org" target="_blank">freeCodeCamp</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="checklist">
+            <label for="checklist">Office Closing Procedures</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="my.af.mil" target="_blank">Closing Checklist</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:focus {
+  outline: 2px solid rosybrown;
+}
+
+a:active {
+  color: skyblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+** end of undefined **
+
